@@ -31,3 +31,35 @@
 - вивід даних у серійну консоль для моніторингу; 
 - практику зчитування сигналів для побудови IoT-систем. 
 
+# lab_1_version_control (English version)
+
+## 📌 Project Description
+This repository contains an example of the **AnalogRead_Serial** project from the *IoT Systems Programming* course (2nd year).
+The program is designed to read an analog signal from a potentiometer (or other analog sensor) connected to an Arduino board and display its value in the Serial Monitor.
+
+---
+
+### 🔹 Functionality
+- Reading data from analog input **A0** using the `analogRead()` function.
+- Outputting received values to the **Serial Monitor** via `Serial.println()`.
+- Using `delay(500)` for convenient observation of results.
+
+---
+
+### 🔹 Usage
+1. Connect the potentiometer to the Arduino board:
+   - middle pin → **A0**,
+   - outer pins → **5V** and **GND**.
+2. Open the sketch `AnalogRead_Serial.ino` in Arduino IDE.
+3. Select the appropriate board (Tools → Board) and port (Tools → Port).
+4. Upload the code to Arduino.
+5. Open **Serial Monitor** (Ctrl+Shift+M) and observe value changes while rotating the potentiometer.
+
+---
+
+### 🔹 Purpose
+This project is an educational example that demonstrates:
+- basics of working with Arduino analog inputs;
+- microcontroller interaction with sensors;
+- data output to serial console for monitoring;
+- practice of reading signals for building IoT systems.

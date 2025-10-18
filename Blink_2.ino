@@ -28,7 +28,7 @@ void setup() {
 }
 
 void loop() {
-  int potentiometer = analogRead(A0); // Зчитування значення з аналогового піну A0
-  Serial.println(potentiometer);      // Вивід значення у серійну консоль
-  delay(500);                         // Затримка для зручності читання
+  int potentiometer = analogRead(A0); // Read value from analog pin A0
+  Serial.println(potentiometer);      // Output value to serial console
+  delay(500);                         // Delay for reading convenience
 }
